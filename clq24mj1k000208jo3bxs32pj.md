@@ -2,7 +2,7 @@
 title: "Understand Docker layers by example : RUN instructions Impact"
 seoTitle: "Docker layers"
 seoDescription: "Understand Docker layers by example : RUN instructions Impact"
-datePublished: Tue Dec 12 2023 09:14:48 GMT+0000 (Coordinated Universal Time)
+datePublished: Tue Dec 10 2024 23:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clq24mj1k000208jo3bxs32pj
 slug: understand-docker-layers-by-example-run-instructions-impact
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1702372797530/dcaebe38-50eb-438e-ace7-3fe49ae96bca.png
