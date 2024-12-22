@@ -1,9 +1,10 @@
 ---
 title: "OKTA Workflows : le meilleur reste à venir"
+seoTitle: "Okta"
+seoDescription: "Workflow"
 datePublished: Fri Sep 29 2023 12:50:06 GMT+0000 (Coordinated Universal Time)
 cuid: cln4lqd5s000808l05yuv10yc
 slug: okta-workflows-le-meilleur-reste-a-venir
-canonical: https://medium.com/@julien.nanquette/okta-workflows-le-meilleur-reste-%C3%A0-venir-ef347416d84e
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695991448408/41ab19bc-a7c6-465d-b60e-c94b47494a96.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1695991585899/15300d26-604d-49b9-9a35-4675e18193a8.png
 tags: workflow, okta, identity-management, workflow-automation
