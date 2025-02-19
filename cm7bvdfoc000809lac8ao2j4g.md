@@ -1,5 +1,5 @@
 ---
-title: "Ispm & Itdr Okta - Kezako 🤔?"
+title: "ISPM & ITDR OKTA - Kezako 🤔?"
 seoTitle: "ISPM ITDR OKTA"
 seoDescription: "Identity Security and Posture Management
 Identity Threat Detection and Response"
