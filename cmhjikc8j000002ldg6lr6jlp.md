@@ -10,7 +10,7 @@ tags: security, okta, iammfaaccess-key-idsecret-access-key, identity-access-mana
 
 ---
 
-## Introduction
+### Introduction
 
 Dans l'écosystème du développement moderne, la sécurisation des applications repose sur deux fondamentaux : l'authentification (qui est l'utilisateur ?) et l'autorisation (que peut-il faire ?). Si OAuth 2.0 et OpenID Connect se sont imposés comme standards incontournables, leur mise en œuvre concrète soulève souvent de nombreuses questions : quel flux d'autorisation utiliser ? Comment configurer son serveur d'autorisation ? Quelle stratégie adopter selon le type d'application ?
 
@@ -33,7 +33,7 @@ Cet article vous guide pas à pas pour comprendre **quel flux d’authentificati
 
 *Avant de détailler OAuth 2.0 et OpenID Connect, faisons un point sur les serveurs d’autorisation (Org et Custom)*
 
-## **Qu’est‑ce qu’un serveur d’autorisation (vue fonctionnelle)**
+### Qu’est‑ce qu’un serveur d’autorisation (vue fonctionnelle)
 
 Un **serveur d’autorisation** est le composant qui **contrôle l’accès** à des ressources protégées dans un domaine de sécurité. Dans OAuth 2.0 / OIDC, il **reçoit des demandes** de la part d’applications clientes, **authentifie** l’utilisateur ou le client, **recueille le consentement**, **applique des politiques d’accès** (scopes, audiences, groupes, conditions), puis **émet des jetons** signés (Access Token, ID Token, et éventuellement Refresh Token). Chaque serveur est identifié par un **issuer (URI)** et publie sa **clé publique** pour que les API puissent vérifier les jetons.
 
@@ -77,7 +77,7 @@ Chaque serveur (Org ou Custom) expose des URLs bien définies. Voici les plus im
 
 > **Note** : Remplace {auth\_server\_id} par default (Custom Server par défaut) ou ton ID personnalisé. Pour l’**Org Authorization Server**, les chemins sont en /oauth2/v1/... sans auth\_server\_id.
 
-### **Comprendre les fondamentaux : OAuth 2.0 et OpenID Connect**
+### Comprendre les fondamentaux : OAuth 2.0 et OpenID Connect
 
 Okta prend en charge plusieurs protocoles d'authentification et d'autorisation : SAML 2.0, Secure Web Authentication (SWA), ainsi que les standards modernes OAuth 2.0 et OpenID Connect (OIDC). Ces deux derniers se sont imposés comme les piliers des intégrations d'applications web, mobiles et API.
 
@@ -94,7 +94,7 @@ Alors que SAML et SWA répondent encore à des cas d'usage legacy, OAuth 2.0 et 
 
 Comprendre cette complémentarité vous permet de choisir le bon flux et d'éviter les erreurs courantes : utiliser un Access Token pour l'identité, exposer un ID Token à une API tierce, ou mal dimensionner la durée de vie des tokens
 
-### **Choisir le flux OAuth 2.0 / OpenID Connect adapté à votre type d’application**
+### Choisir le flux OAuth 2.0 / OpenID Connect adapté à votre type d’application
 
 Lors de la création d’une nouvelle intégration d’application dans Okta, comme illustré dans la capture ci-dessous, vous êtes invité à choisir une **méthode de connexion (Sign-in method)** et un **type d’application (Application type)**.
 
